@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Neucha&subset=cyrillic');
+* {
+    font-family: 'Neucha', 'Montserrat', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.left-background-1 {
+    position: absolute;
+    left: 0;
+    width: 40%;
+    background-color: #0e0f10;
+    height: 100%;
+    z-index: -1;
+    @include desktop {
+        display: none;
+    }
+}
+
+.left-background-2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    background-color: #18191b;
+    height: 283px;
+    z-index: -1;
+    @include desktop {
+        display: none;
+    }
+}
+
+.right-footer-bg1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #f9f9f6;
+    border-top: 1px solid #eeeeeb;
+    z-index: -2;
+    @include tablet {
+        display: none;
+    }
+}
+
+.right-footer-bg2 {
+    position: absolute;
+    right: 0;
+    bottom: 55px;
+    width: 100%;
+    height: 229px;
+    background-color: #f9f9f6;
+    z-index: -2;
+    @include tablet {
+        display: none;
+    }
+}
+
+.all-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100%;
+    font-size: 0;
+    background-color: #FFF;
+    position: relative;
+    @include desktop {
+        background-color: transparent;
+    }
+}
