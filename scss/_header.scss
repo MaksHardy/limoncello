@@ -21,6 +21,9 @@
     &__ul {
         padding: 0;
     }
+    @include mobile {
+        margin-top: 20px;
+    }
     &__list {
         display: inline-block;
         padding-right: 45px;

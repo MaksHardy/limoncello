@@ -243,6 +243,10 @@ body {
 .navigation__ul {
   padding: 0; }
 
+@media screen and (max-width: 700px) {
+  .navigation {
+    margin-top: 20px; } }
+
 .navigation__list {
   display: inline-block;
   padding-right: 45px; }
@@ -901,7 +905,8 @@ body {
   width: 20px; }
   @media screen and (max-width: 455px) {
     .menu-btn {
-      display: block; } }
+      display: block;
+      margin-top: 10px; } }
   .menu-btn span {
     display: block;
     width: 19px;
